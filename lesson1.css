@@ -1,0 +1,22 @@
+body
+{
+    text-align: center;
+}
+table
+{
+    align-items:center;
+    justify-content: center;
+    margin: auto;
+    
+
+}
+div
+{
+    color:rgba(149, 204, 53, 0.836);
+}
+img
+{
+    border: solid 3px rgb(203, 165, 165);
+    width: 80%;
+    height:auto;
+}
