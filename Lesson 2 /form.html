@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" 
+    crossorigin="anonymous">
+    <title>Form</title>
+</head>
+<body>
+    <form method="get" action="https://httpbin.org/get">
+        <label>Név</label> <br>
+        <input type ="text" name ="Név"required> <br>
+        <label>Jelszó</label> <br>
+        <input type ="password" name ="Jelszó" required> <br>
+        <label>Nem</label><br>
+        <input type="radio"  name ="Nem" value="Nő" required> Nő
+        <input type ="radio" name = "Nem" value ="Férfi"> Férfi
+        <input type ="range" min="50" max ="100" name = "Value"> <br>
+        <input type ="checkbox" name ="Admin"> Admin? <br>
+        <button type ="submit" class = "btn btn-info">Regisztráció</button>
+    </form>
+</body>
+</html>
